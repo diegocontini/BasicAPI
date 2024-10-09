@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {}
+    "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {}
   },
   "projects": {
-    "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {
+    "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+        "projectUniqueName": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
         "projectName": "BasicAPI",
-        "projectPath": "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+        "projectPath": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
         "packagesPath": "C:\\Users\\dicon\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\obj\\",
+        "outputPath": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dicon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,13 +56,17 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.8.1, )"
             }
           },
           "imports": [
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dev\\projects\\C#\\BasicAPI\\",
+  "WorkspaceRootPath": "C:\\dev\\projects\\BasicAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\c#\\basicapi\\basicapi\\features\\auth\\licensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\auth\\licensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LicenseController.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\Features\\Auth\\LicenseController.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Features\\Auth\\LicenseController.cs",
-              "ToolTip": "C:\\dev\\projects\\C#\\BasicAPI\\BasicAPI\\Features\\Auth\\LicenseController.cs",
-              "RelativeToolTip": "BasicAPI\\Features\\Auth\\LicenseController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Program.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Program.cs",
+              "RelativeToolTip": "BasicAPI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:19:51.72Z",
+              "WhenOpened": "2024-10-09T00:16:50.48Z",
               "EditorCaption": ""
             }
           ]

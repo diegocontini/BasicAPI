@@ -19,6 +19,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+
 }
 
 app.UseHttpsRedirection();
@@ -27,4 +29,21 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+
+if (app.Environment.IsDevelopment())
+{
+
+    using (var context = (DataContext)app.Services.GetService<DataContext>())
+    {
+        if (context != null)
+        {
+            Console.WriteLine("Iniciado migration");
+            context?.Database.Migrate();
+            Console.WriteLine("Finalizado migration");
+            return;
+        }
+        Console.WriteLine("DbContext está nulo");
+    }
+}
 app.Run();
