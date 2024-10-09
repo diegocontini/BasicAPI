@@ -1,0 +1,45 @@
+name: dockercompose6516106927245440733
+services:
+  basicapi:
+    build:
+      context: C:\dev\projects\BasicAPI
+      dockerfile: BasicAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: basicapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\dicon\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\dicon\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  basicdb:
+    container_name: basicdb
+    environment:
+      POSTGRES_DB: basicapi
+      POSTGRES_PASSWORD: basicapi
+      POSTGRES_USER: basicapi
+    image: postgres:lastest
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose6516106927245440733_default

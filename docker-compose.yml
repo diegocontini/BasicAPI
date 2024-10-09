@@ -1,0 +1,21 @@
+services:
+  basicapi:
+    image: ${DOCKER_REGISTRY-}basicapi
+    build:
+      context: .
+      dockerfile: BasicAPI/Dockerfile
+    ports:
+      - "8080"
+      - "8081"
+
+  basicdb:
+    image: postgres:17
+    container_name: basicdb
+    environment:
+        - POSTGRES_DB=basicapi
+        - POSTGRES_USER=basicapi
+        - POSTGRES_PASSWORD=basicapi
+    volumes:
+    - ./.containers/basicapi:/var/lib/postgresql/data
+    ports:
+        - "5432:5432"

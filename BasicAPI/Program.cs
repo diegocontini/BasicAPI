@@ -31,19 +31,19 @@ app.MapControllers();
 
 
 
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())li
+//{
 
-    using (var context = (DataContext)app.Services.GetService<DataContext>())
-    {
-        if (context != null)
-        {
-            Console.WriteLine("Iniciado migration");
-            context?.Database.Migrate();
-            Console.WriteLine("Finalizado migration");
-            return;
-        }
-        Console.WriteLine("DbContext está nulo");
-    }
-}
+//    using (var context = (DataContext)app.Services.GetService<DataContext>())
+//    {
+//        if (context != null)
+//        {
+//            Console.WriteLine("Iniciado migration");
+//            context?.Database.Migrate();
+//            Console.WriteLine("Finalizado migration");
+//            return;
+//        }
+//        Console.WriteLine("DbContext está nulo");
+//    }
+//}
 app.Run();

@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\projects\\BasicAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\auth\\licensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\auth\\licensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\dependencyinjector\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\dependencyinjector\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\basicapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\basicapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\basicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\basicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Shared\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Features\\Shared\\PaginatedResult.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Shared\\PaginatedResult.cs",
+              "RelativeToolTip": "BasicAPI\\Features\\Shared\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:08:57.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\DependencyInjector\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\DependencyInjector\\DependencyContainer.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\DependencyInjector\\DependencyContainer.cs",
+              "RelativeToolTip": "BasicAPI\\DependencyInjector\\DependencyContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:05:35.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LicenseController.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Auth\\LicenseController.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Features\\Auth\\LicenseController.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Auth\\LicenseController.cs",
+              "RelativeToolTip": "BasicAPI\\Features\\Auth\\LicenseController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:04:01.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BasicAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BasicAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T01:03:34.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BasicAPI",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+              "RelativeDocumentMoniker": "BasicAPI\\BasicAPI.csproj",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+              "RelativeToolTip": "BasicAPI\\BasicAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T01:03:30.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicAPI",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+              "RelativeDocumentMoniker": "BasicAPI\\BasicAPI.csproj",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj*",
+              "RelativeToolTip": "BasicAPI\\BasicAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T01:02:40.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Program.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Program.cs",
+              "RelativeToolTip": "BasicAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T00:16:50.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

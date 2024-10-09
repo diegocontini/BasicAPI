@@ -1,0 +1,52 @@
+name: dockercompose6516106927245440733
+services:
+  basicapi:
+    build:
+      context: C:\dev\projects\BasicAPI
+      dockerfile: BasicAPI/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: basicapi
+    networks:
+      aspnetcoreapp-network: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\dicon\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\dicon\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgres:
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+    image: postgres
+    networks:
+      aspnetcoreapp-network: null
+networks:
+  aspnetcoreapp-network:
+    name: dockercompose6516106927245440733_aspnetcoreapp-network
+    driver: bridge

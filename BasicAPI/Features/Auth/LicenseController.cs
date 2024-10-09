@@ -1,4 +1,5 @@
 ﻿using BasicAPI.Features.Infra.Data;
+using BasicAPI.Features.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,11 +20,20 @@ namespace BasicAPI.Features.Auth
         [HttpPost(Name = "CreateLicense")]
         public License Post([FromBody]License model)
         {
-            _context.Database.Migrate();
+
             _context.Licenses.Add(model);
             _context.SaveChanges();
             return model;
             //return 0;
+        }
+
+        [HttpGet]
+        public PaginatedResult<License> GetAll()
+        {
+            var res = new PaginatedResult<License>();
+            
+            res.Data = _context.Licenses;
+            return res;
         }
 
 
