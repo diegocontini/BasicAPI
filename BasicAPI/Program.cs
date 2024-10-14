@@ -31,19 +31,18 @@ app.MapControllers();
 
 
 
-//if (app.Environment.IsDevelopment())li
-//{
+if (app.Environment.IsDevelopment())
+{
 
-//    using (var context = (DataContext)app.Services.GetService<DataContext>())
-//    {
-//        if (context != null)
-//        {
-//            Console.WriteLine("Iniciado migration");
-//            context?.Database.Migrate();
-//            Console.WriteLine("Finalizado migration");
-//            return;
-//        }
-//        Console.WriteLine("DbContext está nulo");
-//    }
-//}
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+
+        var context = services.GetRequiredService<DataContext>();
+        //        if (context.Database.GetPendingMigrations().Any())
+        {
+            context.Database.Migrate();
+        }
+    }
+}
 app.Run();
