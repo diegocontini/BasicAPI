@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BasicAPI\\Features\\Auth"
+    "\\BasicAPI",
+    "\\BasicAPI\\Features\\Auth",
+    "\\BasicAPI\\Features\\Shared"
   ],
-  "SelectedNode": "\\BasicAPI",
+  "SelectedNode": "\\BasicAPI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

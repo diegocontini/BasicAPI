@@ -1,4 +1,5 @@
-﻿using BasicAPI.Features.Auth;
+﻿using BasicAPI.Models.Entities;
+using BasicAPI.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BasicAPI.Features.Infra.Data
@@ -8,17 +9,41 @@ namespace BasicAPI.Features.Infra.Data
 
         protected readonly IConfiguration Configuration;
 
-        public DataContext(IConfiguration configuration) : base() 
+        public DataContext(IConfiguration configuration) : base()
         {
             Configuration = configuration;
-        } 
-        
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql(Configuration.GetConnectionString("BasicConnection"));
         }
 
-        public DbSet<License> Licenses { get; set; }
+        public void Authenticate(AuthParameters Auth)
+        {
+            {
+                var connectionStringBuilder = new Npgsql.NpgsqlConnectionStringBuilder
+                {
+                    Host = "basicdb",
+                    Database = "basicapi",
+                    Username = Auth.UserName,
+                    Password = Auth.Password
+                };
+
+                var newConnectionString = connectionStringBuilder.ToString();
+
+                Configuration["ConnectionStrings:BasicConnection"] = newConnectionString;
+                this.Database.GetDbConnection().ConnectionString = newConnectionString;
+            }
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            const string connectionString = "Host=basicdb;Username=default;Password=default;Database=basicapi";
+            optionsBuilder.UseNpgsql(Configuration.GetConnectionString("BasicConnection"));
+               optionsBuilder.UseNpgsql(connectionString);
+        }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Venda> Vendas { get; set; }
+        public DbSet<VendaItem> VendaItens { get; set; }
+
+
+
     }
 }

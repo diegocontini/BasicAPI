@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: BasicAPI/Dockerfile
     ports:
-      - "8080"
-      - "8081"
+      - "8080:8080"
+      - "8081:8081"
 
   basicdb:
     image: postgres:17
@@ -16,6 +16,12 @@ services:
         - POSTGRES_USER=basicapi
         - POSTGRES_PASSWORD=basicapi
     volumes:
-    - ./.containers/basicapi:/var/lib/postgresql/data
+        #- basicdb:/var/lib/postgressql/data    
+        - ./.containers/pgdata:/var/lib/postgresql/data
+        
+
+
+
     ports:
-        - "5432:5432"
+        - "18002:5432"
+  
