@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\projects\\BasicAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\models\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\models\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\models\\models\\authparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\models\\models\\authparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8176EAFE-D541-40C2-B293-DA291930017F}|BasicService\\BasicService.csproj|c:\\dev\\projects\\basicapi\\basicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8176EAFE-D541-40C2-B293-DA291930017F}|BasicService\\BasicService.csproj|solutionrelative:basicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Models\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Models\\Models\\ErrorResponse.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Models\\ErrorResponse.cs",
-              "RelativeToolTip": "BasicAPI\\Models\\Models\\ErrorResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicService\\Program.cs",
+              "RelativeDocumentMoniker": "BasicService\\Program.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicService\\Program.cs",
+              "RelativeToolTip": "BasicService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T02:58:38.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthParameters.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Models\\AuthParameters.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Models\\Models\\AuthParameters.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Models\\AuthParameters.cs",
-              "RelativeToolTip": "BasicAPI\\Models\\Models\\AuthParameters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T02:58:35.322Z",
+              "WhenOpened": "2025-01-23T00:04:20.506Z",
               "EditorCaption": ""
             }
           ]

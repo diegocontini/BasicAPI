@@ -5,6 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BasicAPI.Features.Config;
+
+[ApiController]
+[Route("v1/configuration")]
+[Produces("application/json")]
 public class ConfigController(DataContext dataContext) : Controller
 {
     private readonly DataContext _dataContext = dataContext;

@@ -20,4 +20,5 @@ public class Venda
 
     [Column("TB_FUNCIONARIOS_FUN_CODIGO")]
     public long FuncionarioCodigo { get; set; }
+
 }

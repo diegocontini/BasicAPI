@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BasicAPI.Features.Supplier;
+[ApiController]
+[Route("v1/supplier")]
+[Produces("application/json")]
 public class SupplierController(DataContext dbContext) : Controller
 {
     private readonly DataContext _dbContext = dbContext;

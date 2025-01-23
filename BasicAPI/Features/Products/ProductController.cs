@@ -4,6 +4,10 @@ using BasicAPI.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BasicAPI.Features.Products;
+
+[ApiController]
+[Route("v1/product")]
+[Produces("application/json")]
 public class ProductController(DataContext dbContext) : Controller
 {
     private readonly DataContext _dbContext = dbContext;

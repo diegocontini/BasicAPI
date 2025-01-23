@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {}
+    "C:\\dev\\projects\\BasicAPI\\BasicApi\\BasicApi.csproj": {}
   },
   "projects": {
-    "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj": {
+    "C:\\dev\\projects\\BasicAPI\\BasicApi\\BasicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
-        "projectName": "BasicAPI",
-        "projectPath": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
+        "projectUniqueName": "C:\\dev\\projects\\BasicAPI\\BasicApi\\BasicApi.csproj",
+        "projectName": "BasicApi",
+        "projectPath": "C:\\dev\\projects\\BasicAPI\\BasicApi\\BasicApi.csproj",
         "packagesPath": "C:\\Users\\dicon\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\obj\\",
+        "outputPath": "C:\\dev\\projects\\BasicAPI\\BasicApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dicon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -80,6 +84,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.5, 8.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.5, 8.0.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.5, 8.0.5]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,6 +107,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

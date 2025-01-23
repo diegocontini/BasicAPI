@@ -209,3 +209,4 @@ C:\dev\projects\BasicAPI\BasicAPI\obj\Debug\net8.0\BasicAPI.pdb
 C:\dev\projects\BasicAPI\BasicAPI\obj\Debug\net8.0\BasicAPI.genruntimeconfig.cache
 C:\dev\projects\BasicAPI\BasicAPI\obj\Debug\net8.0\ref\BasicAPI.dll
 C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\System.Text.Json.dll
+C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\AutoMapper.dll

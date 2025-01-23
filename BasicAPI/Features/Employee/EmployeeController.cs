@@ -4,6 +4,9 @@ using BasicAPI.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BasicAPI.Features.Employee;
+[ApiController]
+[Route("v1/employee")]
+[Produces("application/json")]
 public class EmployeeController(DataContext dbContext) : Controller
 {
     private readonly DataContext _dbContext = dbContext;

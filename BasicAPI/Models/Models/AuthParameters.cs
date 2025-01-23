@@ -8,4 +8,7 @@ public class AuthParameters
     public required string UserName { get; set; }
     [FromHeader]
     public required string Password { get; set; }
+
+    [FromHeader]
+    public required string Database { get; set; }
 }
