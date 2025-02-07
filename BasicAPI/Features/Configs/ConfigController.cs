@@ -1,4 +1,5 @@
-﻿using BasicAPI.Features.Infra.Data;
+﻿using BasicAPI.Features.Configs;
+using BasicAPI.Features.Infra.Data;
 using BasicAPI.Models.Entities;
 using BasicAPI.Models.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System.Diagnostics;
+using System.Net;
 
 namespace BasicAPI.Features.Config;
 
@@ -51,7 +53,32 @@ public class ConfigController(DataContext dataContext) : Controller
             return StatusCode(500, new ErrorResponse { Error = ex.Message });
         }
     }
-            private void CreateProducts()
+
+    [HttpPost("database/create-backup")]
+    public IActionResult CreateBackup([FromQuery] AuthParameters Auth)
+    {
+        try
+        {
+            ConfigService service = new();
+
+            service.PostgreSqlDump(
+                outFile: "c:\\Users\\dicon\\Desktop",
+                host: _dataContext.Database.GetDbConnection().ConnectionString.Split(";").FirstOrDefault(x => x.Contains("Host")).Split("=").Last(),
+                port: _dataContext.Database.GetDbConnection().ConnectionString.Split(";").FirstOrDefault(x => x.Contains("Port")).Split("=").Last(),
+                database: _dataContext.Database.GetDbConnection().ConnectionString.Split(";").FirstOrDefault(x => x.Contains("Database")).Split("=").Last(),
+                user: _dataContext.Database.GetDbConnection().ConnectionString.Split(";").FirstOrDefault(x => x.Contains("User ID")).Split("=").Last(),
+                password: _dataContext.Database.GetDbConnection().ConnectionString.Split(";").FirstOrDefault(x => x.Contains("Password")).Split("=").Last()
+            );
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            return StatusCode((int)HttpStatusCode.InternalServerError, new ErrorResponse { Error = e.Message });
+
+        }
+    }
+
+    private void CreateProducts()
     {
         int qtd = _dataContext.Produtos.Count();
 

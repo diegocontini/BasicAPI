@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\dev\\projects\\BasicAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\configs\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\configs\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\configs\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\configs\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +50,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ConfigService.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigService.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Features\\Configs\\ConfigService.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigService.cs",
+              "RelativeToolTip": "BasicAPI\\Features\\Configs\\ConfigService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwFwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:12:27.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigController.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigController.cs",
+              "RelativeDocumentMoniker": "BasicAPI\\Features\\Configs\\ConfigController.cs",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigController.cs",
+              "RelativeToolTip": "BasicAPI\\Features\\Configs\\ConfigController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwEcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:07:56.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BasicAPI\\appsettings.json",
+              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\appsettings.json",
+              "RelativeToolTip": "BasicAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T22:53:35.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20250202233406_t.cs",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Migrations\\20250202233406_t.cs",
               "RelativeDocumentMoniker": "BasicAPI\\Migrations\\20250202233406_t.cs",
@@ -50,20 +101,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\OrderController.cs",
               "RelativeDocumentMoniker": "BasicAPI\\Features\\Orders\\OrderController.cs",
               "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\OrderController.cs",
               "RelativeToolTip": "BasicAPI\\Features\\Orders\\OrderController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwCgAAABFAAAA",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T23:29:24.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "VendaPostDTO.cs",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\DTOs\\VendaPostDTO.cs",
               "RelativeDocumentMoniker": "BasicAPI\\Features\\Orders\\DTOs\\VendaPostDTO.cs",
@@ -75,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "VendaGetDTO.cs",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\DTOs\\VendaGetDTO.cs",
               "RelativeDocumentMoniker": "BasicAPI\\Features\\Orders\\DTOs\\VendaGetDTO.cs",
@@ -87,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BasicAPI.csproj",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
               "RelativeDocumentMoniker": "BasicAPI\\BasicAPI.csproj",
