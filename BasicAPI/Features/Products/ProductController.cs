@@ -12,19 +12,21 @@ public class ProductController(DataContext dbContext) : Controller
 {
     private readonly DataContext _dbContext = dbContext;
     [HttpGet("products")]
-    public ActionResult<List<Produto>> GetAll([FromQuery] AuthParameters auth)
+    public ActionResult<List<Produto>> GetAll([FromQuery] AuthParameters auth, [FromQuery] String? description)
     {
         try
         {
-            _dbContext.Authenticate(auth);
-            var data = _dbContext.Produtos.ToList();
+            
+            var data = _dbContext.Produtos.Where(e => e.Descricao.Contains(description ?? String.Empty))
+                                          .ToList();
             if (data.Count == 0)
             {
                 return NoContent();
             }
             return Ok(data);
         }
-        catch (Exception ex) {
+        catch (Exception ex)
+        {
             return StatusCode(500, new ErrorResponse { Error = ex.Message });
         }
     }

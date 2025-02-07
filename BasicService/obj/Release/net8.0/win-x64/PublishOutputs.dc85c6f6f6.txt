@@ -1,0 +1,4 @@
+C:\BasicApi\appsettings.Development.json
+C:\BasicApi\appsettings.json
+C:\BasicApi\BasicService.pdb
+C:\BasicApi\BasicService.exe

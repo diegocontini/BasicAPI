@@ -29,19 +29,31 @@ namespace BasicAPI.Features.Infra.Data
                 //    Username = Auth.UserName,
                 //    Password = Auth.Password
                 //};
+                //var connectionWithoutDocker = new Npgsql.NpgsqlConnectionStringBuilder
+                //{
+                //    Host = "localhost",
+                //    Port = 5432,
+                //    Database = Auth.Database,
+                //    Username = Auth.UserName,
+                //    Password = Auth.Password
+                //};
+
                 var connectionWithoutDocker = new Npgsql.NpgsqlConnectionStringBuilder
                 {
                     Host = "localhost",
                     Port = 5432,
                     Database = Auth.Database,
                     Username = Auth.UserName,
-                    Password = Auth.Password
+                    Password = Auth.Password,
                 };
 
                 var newConnectionString = connectionWithoutDocker.ToString();
 
                 Configuration["ConnectionStrings:BasicConnection"] = newConnectionString;
                 this.Database.GetDbConnection().ConnectionString = newConnectionString;
+
+                this.Database.GetDbConnection().Close();
+                this.Database.GetDbConnection().Open();
             }
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -51,10 +63,10 @@ namespace BasicAPI.Features.Infra.Data
             ///Caso não utilize o método [Authenticate] vai dar b.o pq o usuario e a senha não existem no BD.
             ///Comportamento é intencional, pois o front deverá passar o usuário e senha do banco.
 
-            const string defaultConnection = "Host=localhost;Username=default;Password=default;Database=basicdb";
+            const string defaultConnection = "Host=unknow;Username=postgres;Database=unknow";
             //old
-            //optionsBuilder.UseNpgsql(Configuration.GetConnectionString("BasicConnection"));
-            optionsBuilder.UseNpgsql(defaultConnection);
+            optionsBuilder.UseNpgsql(Configuration.GetConnectionString("BasicConnection"));
+            //optionsBuilder.UseNpgsql(defaultConnection);
         }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<Funcionario> Funcionarios { get; set; }

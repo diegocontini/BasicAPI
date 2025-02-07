@@ -10,7 +10,7 @@ public class Venda
     public long Codigo { get; set; }
 
     [Column("VEN_HORARIO")]
-    public TimeSpan Horario { get; set; }
+    public DateTime Horario { get; set; }
 
     /// <summary>
     /// Seta o nome do campo e o tipo para decimal com precisão de 7,2

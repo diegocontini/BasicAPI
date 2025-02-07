@@ -1,0 +1,6 @@
+
+C:\dev\projects\BasicAPI\BasicAPI>#!/bin/bash
+
+C:\dev\projects\BasicAPI\BasicAPI>BACKUP_DIR="/path/to/backup/directory" 
+
+C:\dev\projects\BasicAPI\BasicAPI>TIMESTAMP=$(date +"mHS") 

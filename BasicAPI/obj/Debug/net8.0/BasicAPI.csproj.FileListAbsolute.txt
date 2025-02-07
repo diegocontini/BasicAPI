@@ -210,3 +210,6 @@ C:\dev\projects\BasicAPI\BasicAPI\obj\Debug\net8.0\BasicAPI.genruntimeconfig.cac
 C:\dev\projects\BasicAPI\BasicAPI\obj\Debug\net8.0\ref\BasicAPI.dll
 C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\System.Text.Json.dll
 C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\dev\projects\BasicAPI\BasicAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

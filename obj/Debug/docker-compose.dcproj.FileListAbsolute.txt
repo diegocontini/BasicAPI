@@ -18,3 +18,6 @@ C:\dev\projects\BasicAPI\bin\Debug\BasicAPI.pdb
 C:\dev\projects\BasicAPI\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\dev\projects\BasicAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\dev\projects\BasicAPI\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\dev\projects\BasicAPI\bin\Debug\AutoMapper.dll
+C:\dev\projects\BasicAPI\bin\Debug\System.Text.Encodings.Web.dll
+C:\dev\projects\BasicAPI\bin\Debug\System.IO.Pipelines.dll

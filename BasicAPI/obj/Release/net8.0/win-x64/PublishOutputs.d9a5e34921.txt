@@ -1,0 +1,5 @@
+C:\dev\projects\BasicAPI\BasicAPI\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\dev\projects\BasicAPI\BasicAPI\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\dev\projects\BasicAPI\BasicAPI\obj\Release\net8.0\win-x64\PubTmp\Out\BasicAPI.pdb
+C:\dev\projects\BasicAPI\BasicAPI\obj\Release\net8.0\win-x64\PubTmp\Out\aspnetcorev2_inprocess.dll
+C:\dev\projects\BasicAPI\BasicAPI\obj\Release\net8.0\win-x64\PubTmp\Out\BasicAPI.exe

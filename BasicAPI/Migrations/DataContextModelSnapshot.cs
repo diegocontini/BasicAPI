@@ -22,7 +22,7 @@ namespace BasicAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("BasicAPI.Entities.Fornecedor", b =>
+            modelBuilder.Entity("BasicAPI.Models.Entities.Fornecedor", b =>
                 {
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
@@ -41,7 +41,7 @@ namespace BasicAPI.Migrations
                     b.ToTable("TB_FORNECEDORES");
                 });
 
-            modelBuilder.Entity("BasicAPI.Entities.Funcionario", b =>
+            modelBuilder.Entity("BasicAPI.Models.Entities.Funcionario", b =>
                 {
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
@@ -75,7 +75,7 @@ namespace BasicAPI.Migrations
                     b.ToTable("TB_FUNCIONARIOS");
                 });
 
-            modelBuilder.Entity("BasicAPI.Entities.Produto", b =>
+            modelBuilder.Entity("BasicAPI.Models.Entities.Produto", b =>
                 {
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
@@ -106,7 +106,7 @@ namespace BasicAPI.Migrations
                     b.ToTable("TB_PRODUTOS");
                 });
 
-            modelBuilder.Entity("BasicAPI.Entities.Venda", b =>
+            modelBuilder.Entity("BasicAPI.Models.Entities.Venda", b =>
                 {
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
@@ -119,8 +119,8 @@ namespace BasicAPI.Migrations
                         .HasColumnType("bigint")
                         .HasColumnName("TB_FUNCIONARIOS_FUN_CODIGO");
 
-                    b.Property<TimeSpan>("Horario")
-                        .HasColumnType("interval")
+                    b.Property<DateTime>("Horario")
+                        .HasColumnType("timestamp with time zone")
                         .HasColumnName("VEN_HORARIO");
 
                     b.Property<decimal>("ValorTotal")
@@ -132,7 +132,7 @@ namespace BasicAPI.Migrations
                     b.ToTable("TB_VENDAS");
                 });
 
-            modelBuilder.Entity("BasicAPI.Entities.VendaItem", b =>
+            modelBuilder.Entity("BasicAPI.Models.Entities.VendaItem", b =>
                 {
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
@@ -160,23 +160,6 @@ namespace BasicAPI.Migrations
                     b.HasKey("Codigo");
 
                     b.ToTable("TB_ITENS");
-                });
-
-            modelBuilder.Entity("BasicAPI.Features.Auth.License", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Token")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Licenses");
                 });
 #pragma warning restore 612, 618
         }

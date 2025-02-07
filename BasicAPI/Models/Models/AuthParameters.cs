@@ -4,11 +4,11 @@ namespace BasicAPI.Models.Models;
 
 public class AuthParameters
 {
-    [FromHeader]
+    [FromHeader(Name ="UserName")]
     public required string UserName { get; set; }
-    [FromHeader]
+    [FromHeader(Name = "Password")]
     public required string Password { get; set; }
 
-    [FromHeader]
+    [FromHeader(Name = "Database")]
     public required string Database { get; set; }
 }
