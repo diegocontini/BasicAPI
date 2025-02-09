@@ -2860,7 +2860,7 @@
     "C:\\Users\\dicon\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0.1",
+    "version": "1.0.0.3",
     "restore": {
       "projectUniqueName": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\BasicAPI.csproj",
       "projectName": "BasicAPI",

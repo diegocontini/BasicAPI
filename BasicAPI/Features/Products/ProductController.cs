@@ -16,8 +16,9 @@ public class ProductController(DataContext dbContext) : Controller
     {
         try
         {
-            
-            var data = _dbContext.Produtos.Where(e => e.Descricao.Contains(description ?? String.Empty))
+            description = description?.Trim()?.ToLower();
+
+            var data = _dbContext.Produtos.Where(e => e.Descricao.ToLower().Contains(description ?? String.Empty))
                                           .ToList();
             if (data.Count == 0)
             {

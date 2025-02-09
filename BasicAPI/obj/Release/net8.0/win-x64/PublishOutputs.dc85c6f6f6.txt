@@ -319,7 +319,7 @@ C:\BasicApi\createdump.exe
 C:\BasicApi\hostfxr.dll
 C:\BasicApi\hostpolicy.dll
 C:\BasicApi\mscordaccore.dll
-C:\BasicApi\mscordaccore_amd64_amd64_8.0.524.21615.dll
+C:\BasicApi\mscordaccore_amd64_amd64_8.0.824.36612.dll
 C:\BasicApi\mscordbi.dll
 C:\BasicApi\mscorrc.dll
 C:\BasicApi\msquic.dll

@@ -78,6 +78,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasicAPI.Features.Config.ConfigController",
+    "Method": "RestoreLastBackup",
+    "RelativePath": "v1/configuration/database/restore-last-backup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Database",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasicAPI.Features.Config.ConfigController",
+    "Method": "GetAllDatabaseUsers",
+    "RelativePath": "v1/configuration/database/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Database",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasicAPI.Features.Employee.EmployeeController",
     "Method": "GetAll",
     "RelativePath": "v1/employee/employees",
@@ -103,7 +155,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Funcionario, BasicAPI, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Funcionario, BasicAPI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json"
         ],
@@ -215,7 +267,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Produto, BasicAPI, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Produto, BasicAPI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json"
         ],
@@ -249,7 +301,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Fornecedor, BasicAPI, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[BasicAPI.Models.Entities.Fornecedor, BasicAPI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json"
         ],

@@ -17,6 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options =>
                                             options.UseNpgsql(builder.Configuration.GetConnectionString("BasicConnection")));
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.WebHost.ConfigureKestrel((context, serverOptions) =>
 {
     //serverOptions.Listen(IPAddress.Parse(ip), 18002);

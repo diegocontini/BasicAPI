@@ -92,7 +92,7 @@ public class OrderController(DataContext dbContext, IMapper mapper) : Controller
         catch (Exception ex)
         {
             await _dbContext.Database.RollbackTransactionAsync();
-            return StatusCode(500, new ErrorResponse { Error = ex.Message });
+            return StatusCode(500, new ErrorResponse { Error = ex.Message + ex.InnerException });
         }
 
     }

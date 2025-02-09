@@ -400,7 +400,6 @@ C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\createdump.exe
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\hostfxr.dll
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\hostpolicy.dll
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\mscordaccore.dll
-C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\mscordaccore_amd64_amd64_8.0.524.21615.dll
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\mscordbi.dll
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\mscorrc.dll
 C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\msquic.dll
@@ -427,3 +426,4 @@ C:\dev\projects\BasicAPI\BasicApi\obj\Release\net8.0\win-x64\refint\BasicApi.dll
 C:\dev\projects\BasicAPI\BasicApi\obj\Release\net8.0\win-x64\BasicApi.pdb
 C:\dev\projects\BasicAPI\BasicApi\obj\Release\net8.0\win-x64\BasicApi.genruntimeconfig.cache
 C:\dev\projects\BasicAPI\BasicApi\obj\Release\net8.0\win-x64\ref\BasicApi.dll
+C:\dev\projects\BasicAPI\BasicApi\bin\Release\net8.0\win-x64\mscordaccore_amd64_amd64_8.0.824.36612.dll
