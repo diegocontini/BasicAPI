@@ -113,22 +113,6 @@ public class ConfigController(DataContext dataContext) : Controller
         }
     }
 
-
-    [HttpGet("database/users")]
-    public async Task<IActionResult> GetAllDatabaseUsers([FromQuery] AuthParameters Auth)
-    {
-        try
-        {
-            _dataContext.Authenticate(Auth);
-            var data =  _dataContext.Database.ExecuteSqlRaw("select rolname from pg_catalog.pg_roles where rolcanlogin = true;");
-
-                return Ok(data);
-        } catch (Exception e)
-        {
-            return StatusCode(500, new ErrorResponse { Error = e.Message + e.InnerException });
-        }
-    }
-
     private void CreateProducts()
     {
         int qtd = _dataContext.Produtos.Count();
