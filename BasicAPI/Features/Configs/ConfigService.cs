@@ -8,7 +8,10 @@ namespace BasicAPI.Features.Configs;
 
 public class ConfigService
 {
-
+    /// <summary>
+    /// SET para quando for Windows. Export quando for linux, etc. 
+    /// Implementar lógica em Linux posteriormente para utilizar como portfolio
+    /// </summary>
     string Set = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) ? "set " : "export ";
 
     public ConfigService()

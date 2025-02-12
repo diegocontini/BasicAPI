@@ -3,25 +3,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BasicAPI.Models.Entities;
 
-[Table("TB_FUNCIONARIOS")]
+[Table("tb_funcionarios")]
 public class Funcionario
 {
-    [Key, Column("FUN_CODIGO")]
-
+    [Key, Column("fun_codigo")]
     public long Codigo { get; set; }
 
-    [Column("FUN_NOME")]
+    [Column("fun_nome")]
     public required string Nome { get; set; }
 
-    [Column("FUN_CPF")]
+    [Column("fun_cpf")]
     public required string CPF { get; set; }
 
-    [Column("FUN_SENHA")]
+    [Column("fun_senha")]
     public required string Senha { get; set; }
 
-    [Column("FUN_FUNCAO")]
+    [Column("fun_funcao")]
     public required string Funcao { get; set; }
-
-
-
 }

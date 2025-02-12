@@ -104,32 +104,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BasicAPI.Features.Config.ConfigController",
-    "Method": "GetAllDatabaseUsers",
-    "RelativePath": "v1/configuration/database/users",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "UserName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Database",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "BasicAPI.Features.Employee.EmployeeController",
     "Method": "GetAll",
     "RelativePath": "v1/employee/employees",

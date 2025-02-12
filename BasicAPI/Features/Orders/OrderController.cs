@@ -34,7 +34,7 @@ public class OrderController(DataContext dbContext, IMapper mapper) : Controller
             await _dbContext.SaveChangesAsync();
 
 
-            ///Adicionar a venda, para depois validar se tem itens, de primeiro momento para errado. E de fato é xD.
+            ///Adicionar a venda, para depois validar se tem itens, de primeiro momento parece errado. E de fato é xD.
             ///Porém, feito desta forma para executar o rollback posteriormente.
            if (!order.Itens.Any())
             {

@@ -61,11 +61,7 @@ public class ConfigController(DataContext dataContext) : Controller
         try
         {
             _dataContext.Authenticate(Auth);
-            string conn = _dataContext.Database.GetDbConnection().ConnectionString;
             
-
-
-
             await service.PostgreSqlDump(
                 outFile: Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\backup_postgres",
                 host:  "localhost",

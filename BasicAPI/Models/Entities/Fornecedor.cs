@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BasicAPI.Models.Entities;
 
-[Table("TB_FORNECEDORES")]
+[Table("tb_fornecedores")]
 public class Fornecedor
 {
 
-    [Key, Column("FOR_CODIGO")]
+    [Key, Column("for_codigo")]
     public long Codigo { get; set; }
 
-    [Column("FOR_DESCRICAO")]
+    [Column("for_descricao")]
     required public string Descricao { get; set; }
 
 }

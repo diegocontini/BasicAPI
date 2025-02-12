@@ -4,24 +4,24 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace BasicAPI.Models.Entities;
 
 
-[Table("TB_PRODUTOS")]
+[Table("tb_produtos")]
 public class Produto
 {
-    [Key, Column("PRO_CODIGO")]
+    [Key, Column("pro_codigo")]
     public long Codigo { get; set; }
 
-    [Column("PRO_DESCRICAO")]
+    [Column("pro_descricao")]
     public required string Descricao { get; set; }
 
-    [Column("PRO_VALOR")]
+    [Column("pro_valor")]
     public required decimal Valor { get; set; }
 
     /// <summary>
     /// Nos requisitos do trabalho o campo está como inteiro, porém quantidade de produtos achei mais coerente trabalhar com decimal.
     /// </summary>
-    [Column("PRO_QUANTIDADE")]
+    [Column("pro_quantidade")]
     public required decimal Quantidade { get; set; }
 
-    [Column("TB_FORNECEDORES_FOR_CODIGO")]
+    [Column("tb_fornecedores_for_codigo")]
     public required long FornecedorCodigo { get; set; }
 }
