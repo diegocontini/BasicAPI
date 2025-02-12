@@ -52,7 +52,7 @@ public class OrderController(DataContext dbContext, IMapper mapper) : Controller
                 ///Com o FOR UPDATE, a tabela será "travada" até que este recurso seja liberado.
                 ///Outras transações concorrentes, aguardarão a tabela ficar disponível para processar a query
                 var estoque = await _dbContext.Produtos
-                    .FromSql($"SELECT \"PRO_QUANTIDADE\" FROM \"TB_PRODUTOS\" WHERE \"PRO_CODIGO\" = {item.ProdutoCodigo} FOR UPDATE")
+                    .FromSql($"select \"pro_quantidade\" from \"tb_produtos\" where \"pro_codigo\" = {item.ProdutoCodigo} for update")
                     .Select(p => p.Quantidade)
                     .FirstOrDefaultAsync();
 

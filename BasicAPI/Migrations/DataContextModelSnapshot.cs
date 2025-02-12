@@ -27,18 +27,18 @@ namespace BasicAPI.Migrations
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasColumnName("FOR_CODIGO");
+                        .HasColumnName("for_codigo");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Codigo"));
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("FOR_DESCRICAO");
+                        .HasColumnName("for_descricao");
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("TB_FORNECEDORES");
+                    b.ToTable("tb_fornecedores");
                 });
 
             modelBuilder.Entity("BasicAPI.Models.Entities.Funcionario", b =>
@@ -46,33 +46,33 @@ namespace BasicAPI.Migrations
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasColumnName("FUN_CODIGO");
+                        .HasColumnName("fun_codigo");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Codigo"));
 
                     b.Property<string>("CPF")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("FUN_CPF");
+                        .HasColumnName("fun_cpf");
 
                     b.Property<string>("Funcao")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("FUN_FUNCAO");
+                        .HasColumnName("fun_funcao");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("FUN_NOME");
+                        .HasColumnName("fun_nome");
 
                     b.Property<string>("Senha")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("FUN_SENHA");
+                        .HasColumnName("fun_senha");
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("TB_FUNCIONARIOS");
+                    b.ToTable("tb_funcionarios");
                 });
 
             modelBuilder.Entity("BasicAPI.Models.Entities.Produto", b =>
@@ -80,30 +80,30 @@ namespace BasicAPI.Migrations
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasColumnName("PRO_CODIGO");
+                        .HasColumnName("pro_codigo");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Codigo"));
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("PRO_DESCRICAO");
+                        .HasColumnName("pro_descricao");
 
                     b.Property<long>("FornecedorCodigo")
                         .HasColumnType("bigint")
-                        .HasColumnName("TB_FORNECEDORES_FOR_CODIGO");
+                        .HasColumnName("tb_fornecedores_for_codigo");
 
                     b.Property<decimal>("Quantidade")
                         .HasColumnType("numeric")
-                        .HasColumnName("PRO_QUANTIDADE");
+                        .HasColumnName("pro_quantidade");
 
                     b.Property<decimal>("Valor")
                         .HasColumnType("numeric")
-                        .HasColumnName("PRO_VALOR");
+                        .HasColumnName("pro_valor");
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("TB_PRODUTOS");
+                    b.ToTable("tb_produtos");
                 });
 
             modelBuilder.Entity("BasicAPI.Models.Entities.Venda", b =>
@@ -111,25 +111,25 @@ namespace BasicAPI.Migrations
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasColumnName("VEN_CODIGO");
+                        .HasColumnName("ven_codigo");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Codigo"));
 
                     b.Property<long>("FuncionarioCodigo")
                         .HasColumnType("bigint")
-                        .HasColumnName("TB_FUNCIONARIOS_FUN_CODIGO");
+                        .HasColumnName("tb_funcionarios_fun_codigo");
 
                     b.Property<DateTime>("Horario")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("VEN_HORARIO");
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("ven_horario");
 
                     b.Property<decimal>("ValorTotal")
                         .HasColumnType("decimal(7,2)")
-                        .HasColumnName("VEN_VALOR_TOTAL");
+                        .HasColumnName("ven_valor_total");
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("TB_VENDAS");
+                    b.ToTable("tb_vendas");
                 });
 
             modelBuilder.Entity("BasicAPI.Models.Entities.VendaItem", b =>
@@ -137,29 +137,29 @@ namespace BasicAPI.Migrations
                     b.Property<long>("Codigo")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasColumnName("ITE_CODIGO");
+                        .HasColumnName("ite_codigo");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Codigo"));
 
                     b.Property<long>("ProdutoCodigo")
                         .HasColumnType("bigint")
-                        .HasColumnName("TB_PRODUTOS_PRO_CODIGO");
+                        .HasColumnName("tb_produtos_pro_codigo");
 
                     b.Property<decimal>("Quantidade")
                         .HasColumnType("numeric")
-                        .HasColumnName("ITE_QUANTIDADE");
+                        .HasColumnName("ite_quantidade");
 
                     b.Property<decimal>("Valor")
                         .HasColumnType("numeric")
-                        .HasColumnName("ITE_VALOR_PRODUTOS");
+                        .HasColumnName("ite_valor_produtos");
 
                     b.Property<long>("VendaCodigo")
                         .HasColumnType("bigint")
-                        .HasColumnName("TB_VENDAS_VEN_CODIGO");
+                        .HasColumnName("tb_vendas_ven_codigo");
 
                     b.HasKey("Codigo");
 
-                    b.ToTable("TB_ITENS");
+                    b.ToTable("tb_itens");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,11 +1,10 @@
-version: '3.4'
-
 services:
   basicapi:
     image: basicapi:dev
     container_name: "BasicAPI_1"
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
       target: base
       labels:

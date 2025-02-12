@@ -1,11 +1,10 @@
-version: '3.4'
-
 services:
   basicapi:
     container_name: "BasicAPI_1"
     build:
       args:
-        BUILD_CONFIGURATION: Release
+        LAUNCHING_FROM_VS: true
+        BUILD_CONFIGURATION: Debug
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "BasicAPI"

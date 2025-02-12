@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\projects\\BasicAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\models\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\models\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\models\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\models\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\orders\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\configs\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\configs\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\configs\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\configs\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\products\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\products\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|c:\\dev\\projects\\basicapi\\basicapi\\features\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6CB5BE0-662A-4E32-A0AF-8EAF94EE0B76}|BasicAPI\\BasicAPI.csproj|solutionrelative:basicapi\\features\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,89 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Entities\\Funcionario.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Models\\Entities\\Funcionario.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Entities\\Funcionario.cs",
-              "RelativeToolTip": "BasicAPI\\Models\\Entities\\Funcionario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:17:08.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Entities\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Models\\Entities\\Fornecedor.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Models\\Entities\\Fornecedor.cs",
-              "RelativeToolTip": "BasicAPI\\Models\\Entities\\Fornecedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:17:03.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\OrderController.cs",
               "RelativeDocumentMoniker": "BasicAPI\\Features\\Orders\\OrderController.cs",
               "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Orders\\OrderController.cs",
               "RelativeToolTip": "BasicAPI\\Features\\Orders\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAWwDYAAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T00:32:16.077Z",
+              "WhenOpened": "2025-02-12T22:34:56.596Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Users\\UserController.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Features\\Users\\UserController.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Users\\UserController.cs",
-              "RelativeToolTip": "BasicAPI\\Features\\Users\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T00:28:25.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfigService.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigService.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Features\\Configs\\ConfigService.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigService.cs",
-              "RelativeToolTip": "BasicAPI\\Features\\Configs\\ConfigService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAwwGIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T22:55:27.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConfigController.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigController.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Features\\Configs\\ConfigController.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Configs\\ConfigController.cs",
-              "RelativeToolTip": "BasicAPI\\Features\\Configs\\ConfigController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:02:02.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Products\\ProductController.cs",
-              "RelativeDocumentMoniker": "BasicAPI\\Features\\Products\\ProductController.cs",
-              "ToolTip": "C:\\dev\\projects\\BasicAPI\\BasicAPI\\Features\\Products\\ProductController.cs",
-              "RelativeToolTip": "BasicAPI\\Features\\Products\\ProductController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:20:23.451Z"
             }
           ]
         }
